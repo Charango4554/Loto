@@ -41,18 +41,18 @@ having won or lost
 Each square over which the player passes is revealed, leaving behind the player the path taken
 
 Program classes :
-Bordure: used to build the board's boundaries
-Case: mother class of all cases, an abstract class
-Categories: used to categorize squares and associate each type with a percentage on the board
-Depart: square from which the player starts, located in the upper left corner, in the same line as the borders.
-Direction: to create the different possible directions
-Joueur: to model the player
-Mine: subclass of Case and explodes if active
-Obstacle: subclass of Case, cannot be crossed if its resistance is greater than zero
-Passage: subclass of Case n redirects to a square of
-Pierre: subclass of Case, stops a stone by adding it to itself, and is picked up by the player.
-Sortie: subclass of Case, corresponds to the exit class of the board.
-Vide: subclass of Case, corresponds to cases that have no effect on the player or on a stone Operation: class that manages game parameters and launches the game.
-Exploration: class that manages game parameters and launches the game
-Game: class that manages the progress of a game round
-Lire: class providing input functions
+-Bordure: used to build the board's boundaries
+-Case: mother class of all cases, an abstract class
+-Categories: used to categorize squares and associate each type with a percentage on the board
+-Depart: square from which the player starts, located in the upper left corner, in the same line as the borders.
+-Direction: to create the different possible directions
+-Joueur: to model the player
+-Mine: subclass of Case and explodes if active
+-Obstacle: subclass of Case, cannot be crossed if its resistance is greater than zero
+-Passage: subclass of Case n redirects to a square of
+-Pierre: subclass of Case, stops a stone by adding it to itself, and is picked up by the player.
+-Sortie: subclass of Case, corresponds to the exit class of the board.
+-Vide: subclass of Case, corresponds to cases that have no effect on the player or on a stone Operation: class that manages game parameters and launches the game.
+-Exploration: class that manages game parameters and launches the game
+-Game: class that manages the progress of a game round
+-Lire: class providing input functions
